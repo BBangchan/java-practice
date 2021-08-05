@@ -1,4 +1,4 @@
-package org.opentutorials.iot;
+package javaiot.org.opentutorials.iot;
 
 public class Aircon implements OnOff{
 	String _id;

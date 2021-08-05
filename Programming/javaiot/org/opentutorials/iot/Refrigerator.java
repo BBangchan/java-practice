@@ -1,4 +1,4 @@
-package org.opentutorials.iot;
+package javaiot.org.opentutorials.iot;
 
 import java.util.Random;
 
