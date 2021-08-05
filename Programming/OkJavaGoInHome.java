@@ -1,6 +1,6 @@
-import org.opentutorials.iot.Elevator;
-import org.opentutorials.iot.Lighting;
-import org.opentutorials.iot.Security;
+import javaiot.org.opentutorials.iot.Elevator;
+import javaiot.org.opentutorials.iot.Lighting;
+import javaiot.org.opentutorials.iot.Security;
 
 
 public class OkJavaGoInHome {
@@ -8,7 +8,7 @@ public class OkJavaGoInHome {
     public static void main(String[] args){
         
         String id = "Java APT 507";
-        
+
         // Elevator call
         Elevator myElevator = new Elevator(id);
         myElevator.callForUp(1);

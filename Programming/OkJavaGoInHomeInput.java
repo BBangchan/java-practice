@@ -1,10 +1,10 @@
-import javax.swing.JOptionPane; //이렇게 import해주어야 JOptionPane 사용가능
+//import javax.swing.JOptionPane; //이렇게 import해주어야 JOptionPane 사용가능
 
 
-import org.opentutorials.iot.DimmingLights;
-import org.opentutorials.iot.Elevator;
-import org.opentutorials.iot.Lighting;
-import org.opentutorials.iot.Security;
+import javaiot.org.opentutorials.iot.DimmingLights;
+import javaiot.org.opentutorials.iot.Elevator;
+import javaiot.org.opentutorials.iot.Lighting;
+import javaiot.org.opentutorials.iot.Security;
 
 
 public class OkJavaGoInHomeInput {

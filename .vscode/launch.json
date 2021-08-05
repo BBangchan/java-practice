@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch OkJavaGoInHomeInput",
+            "request": "launch",
+            "mainClass": "OkJavaGoInHomeInput",
+            "projectName": "java-practice_56be905e",
+            "args": ["Java APT 507", "15.0"]
+        },
+        {
+            "type": "java",
             "name": "Launch OkJavaGoInHome",
             "request": "launch",
             "mainClass": "OkJavaGoInHome",
