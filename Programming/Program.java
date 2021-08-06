@@ -30,7 +30,8 @@ public class Program {
 
     public static void main(String[] args) throws IOException{ 
     
-        PrintWriter p1 = new PrintWriter("result1.txt"); // p1은 
+        PrintWriter p1 = new PrintWriter("result1.txt"); 
+        // p1을 복제해서 각각의 다른상태를 가지고 있는 인스턴스를 만들어서 사용하는 것이 더 효율적이다.
         p1.write("Hello 1");
         p1.close();
 
