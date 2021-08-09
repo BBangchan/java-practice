@@ -4,12 +4,43 @@
     // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
     "version": "0.2.0",
     "configurations": [
+        
+
+        {
+            "type": "java",
+            "name": "Launch AccountingAppArrayLoop",
+            "request": "launch",
+            "mainClass": "AccountingAppArrayLoop",
+            "projectName": "java-practice_56be905e",
+            "args": ["20000.0"] // AccountingApp 파일에 값을 입력하는 방법
+        },
+
+        {
+            "type": "java",
+            "name": "Launch AccountingAppArray",
+            "request": "launch",
+            "mainClass": "AccountingAppArray",
+            "projectName": "java-practice_56be905e",
+            "args": ["10000.0"] // AccountingApp 파일에 값을 입력하는 방법
+        },
+
+
+        {
+            "type": "java",
+            "name": "Launch AccountingAppIF",
+            "request": "launch",
+            "mainClass": "AccountingAppIF",
+            "projectName": "java-practice_56be905e",
+            "args": ["50000.0"] // AccountingApp 파일에 값을 입력하는 방법
+        },
+
         {
             "type": "java",
             "name": "Launch AccountingApp",
             "request": "launch",
             "mainClass": "AccountingApp",
-            "projectName": "java-practice_56be905e"
+            "projectName": "java-practice_56be905e",
+            "args": ["40000.0"] // AccountingApp 파일에 값을 입력하는 방법
         },
         {
             "type": "java",
@@ -23,11 +54,7 @@
             "name": "Launch OkJavaGoInHomeInput",
             "request": "launch",
             "mainClass": "OkJavaGoInHomeInput",
-            "projectName": "java-practice_56be905e",
-            "args": [
-                "Java APT 507",
-                "15.0"
-            ]
+            "projectName": "java-practice_56be905e"
         },
         {
             "type": "java",
@@ -49,6 +76,7 @@
             "request": "launch",
             "mainClass": "Programming.Program",
             "projectName": "java-practice_56be905e"
+
         }
     ]
 }

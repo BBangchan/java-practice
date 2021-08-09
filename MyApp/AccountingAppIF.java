@@ -1,5 +1,5 @@
 
-public class AccountingApp {
+public class AccountingAppIF {
     
     public static void main(String[] args){
 
@@ -10,10 +10,18 @@ public class AccountingApp {
         double total = valueOfSupply + vat;
         double expense = valueOfSupply * expenseRate;
         double income = valueOfSupply - expense;
-        double dividend1 = income * 0.5;
-        double dividend2 = income * 0.3;
-        double dividend3 = income * 0.2;
-
+        double dividend1;
+        double dividend2;
+        double dividend3;
+        if(income > 10000.0){
+            dividend1 = income * 0.5;
+            dividend2 = income * 0.3;
+            dividend3 = income * 0.2;
+        } else {
+            dividend1 = income * 1; //만원보다 작으면 1번 사람이 모든돈을 가져간다.
+            dividend2 = income * 0;
+            dividend3 = income * 0;
+        }
         System.out.println("Value of supply : " +valueOfSupply);
         System.out.println("VAT : " + vat);
         System.out.println("Total : " + total);
