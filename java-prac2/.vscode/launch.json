@@ -1,0 +1,85 @@
+{
+    // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+    // 기존 특성에 대한 설명을 보려면 가리킵니다.
+    // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayApp",
+            "request": "launch",
+            "mainClass": "ArrayApp",
+            "projectName": "java-prac2_5146a9f4"
+        },
+        {
+            "type": "java",
+            "name": "Launch AuthApp",
+            "request": "launch",
+            "mainClass": "AuthApp",
+            "projectName": "java-prac2_5146a9f4"
+        },
+        {
+            "type": "java",
+            "name": "Launch AuthApp2",
+            "request": "launch",
+            "mainClass": "AuthApp2",
+            "projectName": "java-prac2_5146a9f4"
+        },
+        {
+            "type": "java",
+            "name": "Launch AuthApp3",
+            "request": "launch",
+            "mainClass": "AuthApp3",
+            "projectName": "java-prac2_5146a9f4",
+            "args" : ["egoing","1111"]
+        },
+        {
+            "type": "java",
+            "name": "Launch BooleanApp",
+            "request": "launch",
+            "mainClass": "BooleanApp",
+            "projectName": "java-prac2_5146a9f4"
+        },
+        {
+            "type": "java",
+            "name": "Launch ComparisonOperatorrApp",
+            "request": "launch",
+            "mainClass": "ComparisonOperatorrApp",
+            "projectName": "java-prac2_5146a9f4"
+        },
+        {
+            "type": "java",
+            "name": "Launch EqualsApp",
+            "request": "launch",
+            "mainClass": "EqualsApp",
+            "projectName": "java-prac2_5146a9f4"
+        },
+        {
+            "type": "java",
+            "name": "Launch IfApp",
+            "request": "launch",
+            "mainClass": "IfApp",
+            "projectName": "java-prac2_5146a9f4"
+        },
+        {
+            "type": "java",
+            "name": "Launch LoopApp",
+            "request": "launch",
+            "mainClass": "LoopApp",
+            "projectName": "java-prac2_5146a9f4"
+        },
+        {
+            "type": "java",
+            "name": "Launch LoopArray",
+            "request": "launch",
+            "mainClass": "LoopArray",
+            "projectName": "java-prac2_5146a9f4"
+        }
+    ]
+}
