@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch OutputMethod",
+            "request": "launch",
+            "mainClass": "ProjectMethod.OutputMethod",
+            "projectName": "java-prac2_5146a9f4"
+        },
+        {
+            "type": "java",
             "name": "Launch WhyMethod",
             "request": "launch",
             "mainClass": "ProjectMethod.WhyMethod",
