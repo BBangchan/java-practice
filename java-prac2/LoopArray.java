@@ -6,7 +6,7 @@ public class LoopArray{
         users[1] = "jinhuck";
         users[2] = "youbin";
 
-        for(int i=0; i<3; i++){
+        for(int i=0; i < users.length; i++){
             System.out.println(users[i]+ ",");
         }
     }
