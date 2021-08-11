@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch WhyMethod",
+            "request": "launch",
+            "mainClass": "ProjectMethod.WhyMethod",
+            "projectName": "java-prac2_5146a9f4"
+        },
+        {
+            "type": "java",
+            "name": "Launch FirstMethod",
+            "request": "launch",
+            "mainClass": "ProjectMethod.FirstMethod",
+            "projectName": "java-prac2_5146a9f4"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
@@ -37,7 +51,10 @@
             "request": "launch",
             "mainClass": "AuthApp3",
             "projectName": "java-prac2_5146a9f4",
-            "args" : ["egoing","1111"]
+            "args": [
+                "egoing",
+                "1111"
+            ]
         },
         {
             "type": "java",
