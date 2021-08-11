@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch staticMethod",
+            "request": "launch",
+            "mainClass": "ProjectMethod.staticMethod",
+            "projectName": "java-prac2_5146a9f4"
+        },
+        {
+            "type": "java",
             "name": "Launch OutputMethod",
             "request": "launch",
             "mainClass": "ProjectMethod.OutputMethod",
