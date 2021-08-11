@@ -6,6 +6,10 @@ public class EqualsApp {
 
         String o1 = "java";
         String o2 = new String("java");
+        System.out.println(p1);
+        System.out.println(p2);
+        System.out.println(o1);
+        System.out.println(o2);
 
     }
 }
