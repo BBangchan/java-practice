@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch StaticApp",
+            "request": "launch",
+            "mainClass": "ProjectOOP.StaticApp",
+            "projectName": "java-prac2_5146a9f4"
+        },
+        {
+            "type": "java",
             "name": "Launch MyOOP",
             "request": "launch",
             "mainClass": "ProjectOOP.MyOOP",
