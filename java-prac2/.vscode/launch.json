@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ExceptionApp",
+            "request": "launch",
+            "mainClass": "ProjectInheritance.ExceptionApp",
+            "projectName": "java-prac2_5146a9f4"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileWriterApp",
+            "request": "launch",
+            "mainClass": "ProjectInheritance.FileWriterApp",
+            "projectName": "java-prac2_5146a9f4"
+        },
+        {
+            "type": "java",
+            "name": "Launch InterfaceApp",
+            "request": "launch",
+            "mainClass": "ProjectInheritance.InterfaceApp",
+            "projectName": "java-prac2_5146a9f4"
+        },
+        {
+            "type": "java",
+            "name": "Launch InheritanceApp",
+            "request": "launch",
+            "mainClass": "ProjectInheritance.InheritanceApp",
+            "projectName": "java-prac2_5146a9f4"
+        },
+        {
+            "type": "java",
+            "name": "Launch AccountingApp",
+            "request": "launch",
+            "mainClass": "ProjectOOP.AccountingApp",
+            "projectName": "java-prac2_5146a9f4"
+        },
+        {
+            "type": "java",
             "name": "Launch StaticApp",
             "request": "launch",
             "mainClass": "ProjectOOP.StaticApp",
